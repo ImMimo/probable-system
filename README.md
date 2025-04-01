@@ -2,8 +2,7 @@
 
 ## Introduction
 
-This repository contains a set of exercises to learn Github Actions.
-Original [repo link](https://github.com/eficode-academy/github-actions-katas)
+This repository contains a set of exercises to learn Github Actions. See original repo link [here](https://github.com/eficode-academy/github-actions-katas)
 
 ### Exercises
 
