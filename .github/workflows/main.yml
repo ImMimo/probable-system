@@ -9,5 +9,12 @@ jobs:
         uses: actions/checkout@v4       
       - name: Build application
         run: ci/build-app.sh
-      - name: Run tests
+      - name: Run unit tests
         run: ci/unit-test-app.sh
+      - name: Upload a Build Artifact # Name of the step
+        uses: actions/upload-artifact@v4 # Action to use
+        with: 
+          name: code
+          path: .
+          include-hidden-files: true
+      
